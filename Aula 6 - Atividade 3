@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+
+<body>
+    <br><br><br><br><br>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Noturno</th>
+                <th>Segunda-Feira</th>
+                <th>Terça-Feira</th>
+                <th>Quarta-Feira</th>
+                <th>Quinta-Feira</th>
+                <th>Sexta-Feira</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>19:00 - 19:45</td>
+                <td rowspan="4"> CBTDWEB</td>
+                <td rowspan="4">CBTPRES</td>
+                <td rowspan="3">CBTFMAT</td>
+                <td rowspan="2">CBTHCTC</td>
+                <td rowspan="2">CBTAPRG</td>
+            </tr>
+            <tr>
+                <td>19:45 - 20:30</td>
+            </tr>
+            <tr>
+                <td>20:30 - 21:15</td>
+                <td>CBTITIN</td>
+                <td>CBTITIN</td>
+            </tr>
+            <tr>
+                <td>21:30 - 22:15</td>
+                <td rowspan="2">CBTARQC</td>
+                <td rowspan="2">CBTCEEX</td>
+                <td rowspan="2">CBTAPRG</td>
+
+            </tr>
+            <tr>
+                <td>22:15 - 23:00</td>
+                <td></td>
+                <td>CBTFMAT</td>
+
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>
